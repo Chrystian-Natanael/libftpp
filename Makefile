@@ -126,7 +126,7 @@ clean:
 	$(RM) $(BUILD_DIR)
 
 fclean: clean
-	$(RM) $(TARGET_DIR)
+	$(RM) $(TARGET_DIR)$(NAME)
 	$(RM) tests/build/
 	$(RM) $(GTEST_DIR)
 
